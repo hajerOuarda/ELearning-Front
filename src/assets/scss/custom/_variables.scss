@@ -347,6 +347,10 @@ $transition-collapse:         height .35s ease !default;
 
 // Fonts
 
+// Font icons
+
+$icon-font-family:           NucleoIcons, sans-serif !default;
+
 $font-family-sans-serif: Open Sans, sans-serif !default;
 $font-family-base: $font-family-sans-serif !default;
 
@@ -448,21 +452,22 @@ $table-cell-padding:          1rem !default;
 $table-cell-padding-sm:       .5rem !default;
 
 $table-bg:                    transparent !default;
-$table-accent-bg:             rgba($black, .05) !default;
+$table-accent-bg:             rgba($gray-100, .3) !default;
 $table-hover-bg:              $gray-100 !default;
 $table-active-bg:             $table-hover-bg !default;
 
 $table-border-width:          $border-width !default;
 $table-border-color:          $gray-200 !default;
 
-$table-head-bg:               $gray-100 !default;
-$table-head-color:            $gray-600 !default;
 $table-head-spacer-y:         .75rem !default;
-
+$table-head-spacer-x:         1rem !default;
 $table-head-font-size:        .65rem !default;
 $table-head-font-weight:      $font-weight-bold !default;
 $table-head-text-transform:   uppercase !default;
 $table-head-letter-spacing:   1px !default;
+$table-head-bg:               $gray-100 !default;
+$table-head-color:            $gray-600 !default;
+$table-action-color:          $gray-500 !default;
 
 $table-body-font-size:        .8125rem !default;
 
@@ -474,6 +479,7 @@ $table-dark-color:            $body-bg !default;
 
 $table-dark-head-bg:          lighten(theme-color("default"), 4%) !default;
 $table-dark-head-color:       lighten(theme-color("default"), 35%) !default;
+$table-dark-action-color:     lighten(theme-color("default"), 35%) !default;
 
 // Buttons + Forms
 

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pfa-esprim": {
+      "hosting": {
+        "argon-dashboard-angular": [
+          "pfa-esprim"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "staging": "pfa-esprim"
+  }
+}
